@@ -37,4 +37,38 @@ body{
   top: 50%;
   transform: translateY(-50%);
   color: #999;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.content{
+  margin: 20px 0 10px;
+}
+.content p{
+  font-size: 1.3rem;
+}
+.content .requirement-list{
+  margin-top: 20px;
+}
+.content .requirement-list li{
+  list-style: none;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.content .requirement-list li i{
+  font-size: 0.6rem;
+  color: #aaa;
+  width: 20px;
+}
+.requirement-list li.valid i {
+  font-size: 1.1rem;
+  color: #4285f4;
+}
+.requirement-list li span{
+  margin-left: 12px;
+  transition: .3s color;
+}
+.requirement-list li.valid span{
+  color: #999;
 }
